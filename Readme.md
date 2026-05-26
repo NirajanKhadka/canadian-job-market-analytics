@@ -1,10 +1,12 @@
+![Banner](assets/banner.png) 
+ 
  🍁 Canadian Job Market Analytics
 
 An end-to-end data analytics project analyzing **20,462 Canadian data job postings**
 to uncover hiring trends, in-demand skills, salary distributions, and remote work patterns
 across the Canadian data industry.
 
-> **Live Demo →** [canadian-job-market-analytics.streamlit.app](https://canadian-job-market-analytics.streamlit.app)  
+> **Live Demo →** [canadian-job-market-analytics.streamlit.app](https://canadian-job-market-analytics-h3srgdsx2fr7dhapp56wpax.streamlit.app)  
 > **Tech Stack:** Python · PostgreSQL · Streamlit · Plotly · Pandas · Seaborn
 ---
 
@@ -76,17 +78,22 @@ Canadian Job Market Analytics/
 - **Top role:** Data Engineer, followed by Data Analyst and Data Scientist
 - **Seniority premium:** Senior roles command significantly higher median salaries than Mid or Junior
 
----
-
 ## 📈 Dashboard Pages
 
-| Page | Description |
-| --- | --- |
-| 🏠 Home | KPI summary cards — total jobs, top role, top city, remote %, top skill |
-| 🛠️ Skills | Top 25 skills, skills by role, skill co-occurrence heatmap |
-| 💰 Salaries | Salary distribution, salary by role/city/seniority |
-| 🏙️ Cities | Job volume by city, salary by city, city vs remote breakdown |
-| 📅 Trends | Monthly posting volume, role trends over time |
+### 🏠 Home — KPI Summary
+![Home](assets/dashboard_home.png)
+
+### 🛠️ Skills Analysis
+![Skills](assets/dashboard_skills.png)
+
+### 💰 Salary Analysis
+![Salaries](assets/dashboard_salaries.png)
+
+### 🏙️ City Analysis
+![Cities](assets/dashboard_cities.png)
+
+### 📅 Posting Trends
+![Trends](assets/dashboard_trends.png)
 
 ---
 
@@ -147,37 +154,11 @@ Canadian Job Market Analytics/
 The live app connects to **Supabase** (hosted PostgreSQL) via the Session Pooler and is
 deployed on **Streamlit Community Cloud**.
 
-**Live URL:** [canadian-job-market-analytics.streamlit.app](https://canadian-job-market-analytics.streamlit.app)
+**Live URL:** [canadian-job-market-analytics.streamlit.app](https://canadian-job-market-analytics-h3srgdsx2fr7dhapp56wpax.streamlit.app)
 
----
 
-## 📁 Requirements
 
-```text
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-psycopg2-binary
-sqlalchemy
-jupyter
-python-dotenv
-```
 
----
-
-## 👤 Author
-
-**Nirajan Khadka**
-Data Analyst · Business Intelligence · Power BI · SQL · Python
-📍 Mississauga, Ontario, Canada
-🔗 [LinkedIn](https://www.linkedin.com/in/nirajan-khadka/)
-🐙 [GitHub](https://github.com/NirajanKhadka)
-📧 Nirajan.Tech@gmail.com
-
----
 
 ## 📄 License
 
