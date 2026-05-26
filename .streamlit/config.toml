@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1E2130"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+DATABASE_URL = "postgresql://postgres.stcbnxrncrdrutkfoegn:pwd@Supabase99@aws-1-us-east-1.pooler.supabase.com:5432/postgres"

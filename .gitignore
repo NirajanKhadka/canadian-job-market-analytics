@@ -1,0 +1,24 @@
+# Environment
+.env
+*.env
+
+# Data files
+data/
+*.csv
+*.dump
+*.sql
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Outputs (optional — remove this line if you want charts on GitHub)
+outputs/
